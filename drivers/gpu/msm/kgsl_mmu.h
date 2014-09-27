@@ -18,7 +18,7 @@
  * and what ranges of memory we map to them
  */
 #define KGSL_IOMMU_GLOBAL_MEM_BASE	0xC0000000
-#define KGSL_IOMMU_GLOBAL_MEM_SIZE	SZ_4M
+#define KGSL_IOMMU_GLOBAL_MEM_SIZE	SZ_8M
 #define KGSL_IOMMU_TTBR1_SPLIT		2
 
 #define KGSL_MMU_ALIGN_SHIFT    13
